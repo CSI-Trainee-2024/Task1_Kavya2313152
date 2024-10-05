@@ -1,0 +1,23 @@
+body {
+    font-family: Arial;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; 
+}
+header{
+    background:#67b198;
+    color: white;
+    text-align: center;
+}
+.logo {
+    width: 100px; 
+    height: auto; 
+    display: block;  
+}
+.navibar{
+    background-color: rgba(17,41,53,230);
+    height: 50px;
+    text-align: center;
+    padding-top: 20px;
+}
+
