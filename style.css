@@ -2,7 +2,7 @@ body {
     font-family: Arial;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4; 
+    background-color: rgb(165 237 224 / 36%);
 }
 .header-content {
     display: flex; 
@@ -36,30 +36,26 @@ nav a:hover {
     text-decoration: underline; 
 }
 
-
-
-
-
-
 .overview {
     text-align: center; 
     border-radius: 10px; 
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .globe {
-    width: 100%; /* Responsive image */
-    max-width: 400px; /* Max width for the image */
-    height: auto; /* Maintain aspect ratio */
+    width: 100%; 
+    max-width: 400px; 
+    height: auto; 
 }
 
 .overview a {
-    color: #67b198; /* Link color */
-    text-decoration: none; /* Remove underline */
+    color: rgba(17,41,53,230);
+    color: #67b198; 
+    text-decoration: none; 
 }
 
 .overview a:hover {
-    text-decoration: underline; /* Underline on hover */
+    text-decoration: underline; 
 }
 
 
