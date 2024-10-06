@@ -4,23 +4,27 @@ body {
     padding: 0;
     background-color: #f4f4f4; 
 }
+.header-content {
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px; 
+}
 header{
     background:#67b198;
     color: white;
-    text-align: center;
-    height: 300px;
+    padding: 10px;
 
 }
 .logo {
     width: 100px; 
     height: auto; 
-    display: flex;  
+    margin-right: 20px;  
 }
 nav{
     background-color: rgba(17,41,53,230);
     height: 40px;
     text-align: center;
-    padding-top: 20px;
 }
 nav a {
     margin: 0 1rem;
@@ -31,4 +35,31 @@ nav a {
 nav a:hover {
     text-decoration: underline; 
 }
+
+
+
+
+
+
+.overview {
+    text-align: center; 
+    border-radius: 10px; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.globe {
+    width: 100%; /* Responsive image */
+    max-width: 400px; /* Max width for the image */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.overview a {
+    color: #67b198; /* Link color */
+    text-decoration: none; /* Remove underline */
+}
+
+.overview a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
 
