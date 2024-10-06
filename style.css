@@ -8,16 +8,27 @@ header{
     background:#67b198;
     color: white;
     text-align: center;
+    height: 300px;
+
 }
 .logo {
     width: 100px; 
     height: auto; 
-    display: block;  
+    display: flex;  
 }
-.navibar{
+nav{
     background-color: rgba(17,41,53,230);
-    height: 50px;
+    height: 40px;
     text-align: center;
     padding-top: 20px;
+}
+nav a {
+    margin: 0 1rem;
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline; 
 }
 
