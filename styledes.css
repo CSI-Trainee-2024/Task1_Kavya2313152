@@ -66,3 +66,38 @@ nav a:hover {
     color: whitesmoke; 
 }
 
+
+
+.blogs {
+    padding: 20px;
+    border-radius: 8px; 
+    display: inline-block; 
+    width: 100%; 
+}
+
+.blog-post {
+    width: 100%; 
+    margin: 10px 0; 
+    padding: 15px;
+    background-color: rgba(17,41,53,230); 
+    border-radius: 5px; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+    transition: transform 0.4s ease, box-shadow 0.4s ease; 
+}
+
+.blog-post:hover {
+    transform: scale(1.05); 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); 
+}
+
+.blog-post h3 a {
+    color: #67b198; 
+    text-decoration: none; 
+    transition: color 0.4s ease, transform 0.4s ease; 
+}
+
+.blog-post h3 a:hover {
+    text-decoration: underline; 
+    color: #4a8f7d; 
+    transform: scale(1.05); 
+}
